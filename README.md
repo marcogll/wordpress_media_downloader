@@ -1,5 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo.svg" width="110" alt="WordPress Media Downloader">
+  <a href="https://soul23.mx">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo_wh.png">
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo_blk.png">
+      <img
+        src="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo_blk.png"
+        width="110"
+        alt="Soul:23">
+    </picture>
+  </a>
 </p>
 
 <h1 align="center">WordPress Media Downloader</h1>
@@ -9,14 +22,19 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3a3a3a?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/WordPress-3a3a3a?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress">
-  <img src="https://img.shields.io/badge/REST_API-3a3a3a?style=flat-square&logo=fastapi&logoColor=white" alt="REST API">
-  <img src="https://img.shields.io/badge/CLI-3a3a3a?style=flat-square&logo=gnubash&logoColor=white" alt="CLI">
-  <img src="https://img.shields.io/badge/Cross_Platform-3a3a3a?style=flat-square&logo=linux&logoColor=white" alt="Cross Platform">
+  <img src="https://img.shields.io/badge/Python-3a3a3a?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/WordPress-3a3a3a?style=flat-square&logo=wordpress&logoColor=white">
+  <img src="https://img.shields.io/badge/REST_API-3a3a3a?style=flat-square&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/CLI-3a3a3a?style=flat-square&logo=gnubash&logoColor=white">
 </p>
 
 ---
+
+## Description
+
+CLI tool to download entire WordPress media libraries via the REST API, preserving original filenames and folder structure. Generates JSON metadata per item and supports Application Passwords for authentication.
+
+Cross-platform, built with Python.
 
 ## Requisitos
 
